@@ -19,6 +19,7 @@ server.use(cors({
   origin: "https://bls-videogames.netlify.app", credentials:true
 }))
 
+
 server.use('/', routes);
 
 // Error catching endware.
